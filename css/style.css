@@ -1,3 +1,13 @@
+.texto-al-costado {
+    font-family: fantasy;
+    font-size: 19px;
+    margin-top: 5px;
+    position: relative;
+    top: -30px;
+    left: 60px;
+
+}
+
 .imagen-programacion { 
                        position: relative;
                        top:159px;
@@ -24,13 +34,25 @@
     height: 520px;
   }
 
+  .formulario {
+    background-color: #0e4e7575;
+    border: 5px solid rgba(255, 255, 255, 0.76);
+    border-radius: 10%;
+    margin: 20px;
+    width:30%;
+    transform: translate(80%, 20%);
+    text-align: center;
+    padding: 30px;
+    
+  }
+
 .footer {
-    width: 510px;
-    height: 150px;
+    width: 590px;
+    height: 190px;
     position: relative;
     float: left; 
-    padding: 30px; 
-    margin: 3px; 
+    padding: 100px; 
+    margin: 50px; 
 }
 
 
@@ -50,4 +72,15 @@
     width:33px;
     height: 25px;
     
+}
+
+.Texto-formulario {
+    color: #f1faee;
+    font-size: 23px;
+    margin-top: 50px;
+    position: relative;
+    top: -50px;
+    right: 0%;
+    text-align: center;
+
 }
