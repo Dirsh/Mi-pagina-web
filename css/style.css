@@ -1,3 +1,77 @@
+.header {
+  background-color: rgba(0, 255, 255, 0);
+  margin: 0px auto;
+
+}
+
+.body {
+  margin: 0px;
+  line-height: 18px;
+  width: 1460px;
+}
+
+.main-nav {
+  background-color: rgba(243, 199, 55, 0);
+  margin-top: 10px;
+  font-size: 19px;
+  list-style: none;
+  padding-left: 0%;
+  transform: translate(1%, -190%);
+  text-align: center;
+  padding: 20px;
+  height: 2px;
+  left: 30px;
+
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+
+.main-nav__item a {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: 1em;
+  margin-right: .5em;
+}
+
+.main-nav__item a {
+  color: rgb(255, 250, 240);
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #77725f3d;
+
+}
+
+.main-nav__item a:hover {
+  color: rgba(156, 156, 156, 0.678);
+
+}
+
+.main-nav__item a::after {
+  content: "             ";
+}
+
+.Texto-pagina-principal {
+  background-color: rgba(51, 111, 167, 0.336);
+    color: #f1faee;
+    border-radius: 5%;
+    font-size: 20px;
+    margin-top: 0px;
+    margin: 20px;
+    position: relative;
+    top: 0px;
+    right: 0%;
+    text-align: left;
+    left: 0px; 
+    width:50%;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.39);
+    
+}
+
 .texto-al-costado {
     font-family: fantasy;
     font-size: 19px;
@@ -11,8 +85,10 @@
 .imagen-programacion { 
                        position: relative;
                        top:159px;
-                       left:890px;
-                       width: 445px; }
+                       left:867px;
+                       width: 450px;
+                       border-radius: 5%; 
+                       transform: translate(19%, -205%);}
 
 
 .Cartel_neon {
@@ -22,7 +98,8 @@
                 margin: 50px; 
                 border: 0px solid black; 
                 float: right; 
-                width: 590px; }
+                width: 590px; 
+                transform: translate(16%, -120%);}
 
 .Superpuestas {
                 width:100%;
@@ -34,44 +111,51 @@
     height: 520px;
   }
 
-  .formulario {
-    background-color: #0e4e7575;
-    border: 5px solid rgba(255, 255, 255, 0.76);
-    border-radius: 10%;
-    margin: 20px;
-    width:30%;
-    transform: translate(80%, 20%);
-    text-align: center;
-    padding: 30px;
-    
-  }
 
 .footer {
-    width: 590px;
-    height: 190px;
-    position: relative;
-    float: left; 
-    padding: 100px; 
-    margin: 50px; 
+  margin: 0px auto;
+  min-width: 764px;
+  max-width: 2300px;
+     
 }
+
 
 
 .button_Linkedin {
     width:30px;
     height: 30px;
+    transform: translate(-590%, 500%);
+
     
 } 
 
 .button_Instagram {
     width:30px;
     height: 30px;
+    transform: translate(-590%, 610%);
+    
     
 }
 
 .button_correo {
     width:33px;
     height: 25px;
+    transform: translate(-530%, 810%);
     
+}
+
+.formulario {
+  background-color: #0e4e7575;
+  border: 2px solid rgba(255, 255, 255, 0.39);
+  border-radius: 10%;
+  margin: 20px;
+  width:30%;
+  transform: translate(0%, -150%);
+  text-align: center;
+  padding: 30px;
+  height: 258px;
+  
+  
 }
 
 .Texto-formulario {
@@ -79,8 +163,46 @@
     font-size: 23px;
     margin-top: 50px;
     position: relative;
-    top: -50px;
+    top: -30px;
     right: 0%;
     text-align: center;
+    
+}
 
+.texto-del-footer {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translate(6%, 490%);
+  width: 300%;
+  display: flex;
+  
+}
+
+.Foto-de-portada-de-Nico {
+           position: relative;
+           width: 140px;
+           height: 100;
+           transform: translate(10%, -300%);
+           border-radius: 10%;
+           left: 1070px;
+}
+
+.Linea-amarilla-footer {
+  position: relative;
+  transform: translate(5%, 110%);
+  
+
+}
+
+.Cuadrado-neon-redes-sociales {
+  position: relative;
+  transform: translate(-110%, -70%);
+  
+}
+
+.Icono-abajo-footer {
+  position: relative;
+  transform: translate(1410%, -190%);
+  
 }
