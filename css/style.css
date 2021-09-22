@@ -69,8 +69,8 @@
     width:50%;
     padding: 20px;
     border: 2px solid rgba(255, 255, 255, 0.39);
-    
-}
+    transform: translate(0%, 50%);}
+
 
 .texto-al-costado {
     font-family: fantasy;
@@ -88,7 +88,7 @@
                        left:867px;
                        width: 450px;
                        border-radius: 5%; 
-                       transform: translate(19%, -205%);}
+                       transform: translate(19%, -145%);}
 
 
 .Cartel_neon {
@@ -99,7 +99,7 @@
                 border: 0px solid black; 
                 float: right; 
                 width: 590px; 
-                transform: translate(16%, -120%);}
+                transform: translate(16%, -85%);}
 
 .Superpuestas {
                 width:100%;
@@ -113,9 +113,9 @@
 
 
 .footer {
-  margin: 0px auto;
-  min-width: 764px;
-  max-width: 2300px;
+    width: 100%;
+    padding: 0px 0 0;
+    max-width: 1300px;
      
 }
 
@@ -124,7 +124,7 @@
 .button_Linkedin {
     width:30px;
     height: 30px;
-    transform: translate(-590%, 500%);
+    transform: translate(400%, -397%);
 
     
 } 
@@ -132,7 +132,7 @@
 .button_Instagram {
     width:30px;
     height: 30px;
-    transform: translate(-590%, 610%);
+    transform: translate(400%, -740%);
     
     
 }
@@ -140,7 +140,7 @@
 .button_correo {
     width:33px;
     height: 25px;
-    transform: translate(-530%, 810%);
+    transform: translate(359%, -550%);
     
 }
 
@@ -148,14 +148,13 @@
   background-color: #0e4e7575;
   border: 2px solid rgba(255, 255, 255, 0.39);
   border-radius: 10%;
-  margin: 20px;
+  margin: 0 auto;
   width:30%;
-  transform: translate(0%, -150%);
+  transform: translate(0%, -110%);
   text-align: center;
   padding: 30px;
   height: 258px;
-  
-  
+    
 }
 
 .Texto-formulario {
@@ -173,8 +172,8 @@
   color: black;
   font-size: 15px;
   font-weight: bold;
-  transform: translate(6%, 490%);
-  width: 300%;
+  transform: translate(5%, 0%);
+  width: 100%;
   display: flex;
   
 }
@@ -183,26 +182,26 @@
            position: relative;
            width: 140px;
            height: 100;
-           transform: translate(10%, -300%);
+           transform: translate(10%, -200%);
            border-radius: 10%;
            left: 1070px;
 }
 
 .Linea-amarilla-footer {
   position: relative;
-  transform: translate(5%, 110%);
+  transform: translate(5%, -150%);
   
 
 }
 
 .Cuadrado-neon-redes-sociales {
   position: relative;
-  transform: translate(-110%, -70%);
+  transform: translate(0%, -190%);
   
 }
 
 .Icono-abajo-footer {
   position: relative;
-  transform: translate(1410%, -190%);
+  transform: translate(-1400%, -110%);
   
 }
