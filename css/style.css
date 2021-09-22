@@ -179,7 +179,7 @@
 .Texto-formulario {
     color: #f1faee;
     font-size: 23px;
-    margin-top: 50px;
+    margin-top: 40px;
     position: relative;
     top: -30px;
     right: 0%;
@@ -216,7 +216,7 @@
 }
 
 .Linea-amarilla-footer {
-  transform: translate(1%, -82%);
+  transform: translate(1%, -96%);
   width: 1400px;
   height: 90px;
 }
