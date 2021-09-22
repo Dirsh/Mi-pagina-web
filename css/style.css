@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background-color: rgba(0, 255, 255, 0);
   margin: 0px auto;
@@ -99,10 +105,10 @@
                 top:65px;
                 padding: 45px; 
                 margin: 50px; 
-                height: 330px;
+                height: 425px;
                 float: right; 
-                width: 590px; 
-                transform: translate(149%, 41%);
+                width: 675px; 
+                transform: translate(150%, 37%);
                              
               }
 
@@ -132,19 +138,19 @@
     width:37px;
     height: 35px;
     position: absolute;
-    transform: translate(-1260%, 590%);
+    transform: translate(-1233%, 590%);
 } 
 
 .button_Instagram {
     width:37px;
     height: 35px;
-    transform: translate(-1260%, 70%);
+    transform: translate(-1237%, 70%);
 }
 
 .button_correo {
     width:37px;
     height: 30px;
-    transform: translate(-1369%, 320%);
+    transform: translate(-1345%, 320%);
 }
 
 .formulario {
