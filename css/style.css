@@ -155,6 +155,12 @@
     transform: translate(-1345%, 320%);
 }
 
+.button-Github {
+    width:65px;
+    height: 65px;
+    transform: translate(-503%, -271%);
+}
+
 .formulario {
   background-color: #0e4e7575;
   border: 2px solid rgba(255, 255, 255, 0.39);
@@ -187,7 +193,7 @@
   color: rgb(255, 255, 255);
   font-size: 12px;
   font-weight: bold;
-  transform: translate(43%, 200%);
+  transform: translate(43%, 140%);
   width: 190%;
   font-family: Roboto,sans-serif;
 }
@@ -210,7 +216,7 @@
 }
 
 .Linea-amarilla-footer {
-  transform: translate(1%, -6%);
+  transform: translate(1%, -82%);
   width: 1400px;
   height: 90px;
 }
@@ -218,6 +224,6 @@
 
 .Icono-abajo-footer {
   position: relative;
-  transform: translate(3450%, -50%);
+  transform: translate(3450%, -130%);
   
 }
