@@ -11,164 +11,23 @@
     <title> Esta es mi pagina </title>
     <!-- El meta viewport permite a la pgina escalar en resolucion dependiendo del dispositivo-->
     <meta name="viewport" content="width=divice-width, inictial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-
-
-  
-  </head>
-
-<!-- Cosas visuales para el usuaro -->
-  
-  <body class="body"
-        background="./img/Fondo_principal.jpg"
-        alt="Fondo principal">
-
+    <link rel="stylesheet" href="./css/style-index.css">
+  </head>   
+    <body class="body"
+          background="./img/Fondo-pagina.gif"
+          alt="Fondo principal">
     <!-- Encabezado -->  
-      <img
-            src="./img/Icono-blog.png"
-            alt="Icono de blog"
-            width="60"
-            height="60">
-      <section class="Home" id="Home">
-          <main>
-            <header class="header">
-                <p class="texto-al-costado" style="fantasy"> By Nicolas Herrera</p>      
-                <p class="Icono-pincipal">
-              <nav>
-                <ul class="main-nav">
-                <li class="main-nav__item"><a href="./index.html">Home</a></li>
-                <li class="main-nav__item"><a href="./biografia.html">Biografia</a></li>
-                <li class="main-nav__item"><a href="#Experiencia-profesional">Experiencia profesional</a></li>
-                <li class="main-nav__item"><a href="#Conocimientos">Conocimientos</a></li>
-                <li class="main-nav__item"><a href="#Blog">Blog</a></li>
-                </ul>
-              </nav> 
-            </header>
-            <p class="Texto-pagina-principal">Considero soy una persona que asume total compromiso con sus objetivos,
-              dinamico, proactivo, emprendedor con nuevas ideas y capaz de desarrollar proyectos.
-              <br>
-              <br>
-              Con conocimientos en:
-              <br>
-              <br>      
-              <br>                                    -Python
-              <br>                                    -Javascript 
-              <br>                                    -HTML
-              <br>                                    -CSS
-              <br>
-              <br>      Cursos:
-              <br>
-              <br>           -Programación orientada a objetos 
-              <br>           -Git y Github
-              <br>
-            </p>
-    
-          <!-- Imagenes -->
-            <img 
-              class="Cartel_neon"
-              src="./img/cartel_neon.png"
-              alt="Imagen de un cartel neon"
-              width="520"
-              height="320">
+      <section class="Tabla-de-navegacion">
+        <nav>
+          <ul class="main-nav">
+            <li class="main-nav__item_home"><a href="./index.html">Home</a></li>
+            <li class="main-nav__item_biografia"><a href="./Biografia.html">Biografia</a></li>
+            <li class="main-nav__item_esperincia_profesional"><a href="#Experiencia-profesional">Experiencia profesional</a></li>
+            <li class="main-nav__item_conocimiento"><a href="#Conocimientos">Conocimientos</a></li>
+            <li class="main-nav__item_blog"><a href="#Blog">Blog</a></li>
+          </ul>
+        </nav> 
+      </section>
 
-            <img 
-              class="Cartel-neon-redes-sociales"
-              src="./img/Fondo-formulario.png"
-              alt="Imagen de un cartel neon">  
-        
-            <img
-              class="mente-codigo" 
-              src="./img/mente-codigo.png"
-              alt="Imagen de codigo en mente">          
-
-            <img 
-             class="imagen-programacion"
-             src="./img/Programacion.gif"
-             alt="Imagen de programacion"
-             width="300"
-             height="240">
-
-            <img
-             class="Foto-de-portada-de-Nico" 
-             src="./img/Foto-Nicolas-portada.jpg"
-             alt="Foto de portada de Nico">
-
-          <div class="formulario">
-          <h2 class="Texto-formulario">Formulario de contacto</h2>
-            <form action="">
-            <label for="nombre_completo">
-             <input type="text" id="nombre_y_apellido" placeholder="Nombre y apellido" required>
-            <br>
-            <br>
-            <label for="empresa">
-             <input type="text" id="empresa" placeholder="Empresa" required>
-            <br>
-            <br>          
-            <label for="Telefono">
-             <input type="text" id="telefono" placeholder="Telefono" required>
-            <br>
-            <br>          
-            <label for="correo">
-             <input type="email" id="correo" placeholder="Email" required>
-            <br>
-            <br>             
-             <button type="submit" style="border: 0; background: transparent">
-               <img src="./img/icono-boton-enviar-formulario.png" width="55" height="40" alt="submit" />
-             </button>
-            <br>
-          </div>    
-
-            <!-- Botones de redes sociales -->
-          <a href="https://www.linkedin.com/in/nicolasnm/">
-            <img
-              class="button_Linkedin" 
-              src="./img/Logo-Linkedin.jpg"
-              alt="Icono de linkedin">
-          </a>       
-            
-          <a href="https://www.instagram.com/nikiin_21">
-            <img
-              class="button_Instagram" 
-              src="./img/Logo-Instagram.jpg"
-              alt="Icono de instagram">
-            </a>     
-            
-          <a href="mailto:grandnikiingmail.com?subject=Correo para Nicolas Herrera&body=Hola Nicolas mucho gusto!">
-            <img
-              class="button_correo" 
-              src="./img/Logo-Correo.jpg"
-              alt="Icono de linkedin">
-          </a>
-
-          <a href="https://github.com/Dirsh">
-            <img
-              class="button-Github" 
-              src="./img/Icono-Github.png"
-              alt="Icono de Github">
-          </a>
-
-                <!-- Pie de la pagina -->
-            <footer class="footer">  
-              <div>
-                <p class="texto-del-footer"> Todo el contenido de esta pagina es resultado de los conocimientos adquiridos en HTML, Javascript y CCS,
-                  el contenido de la misma esta compuesto por elementos de distintos portales de internet y solo tienen como objetivo demostrar las habilidades en programacion frontend y backend, 
-                  no hay fines comerciales con la misma.
-                  En caso de querer contactar con el desarrollador se brinda en el apartado redes sociales datos de contacto. </p>
-                <img
-                  class="Linea-amarilla-footer" 
-                  src="./img/Linea-amarilla.png"
-                  alt="Linea amarilla para footer"
-                  width="1390"
-                  height="90">
-                <img
-                  class="Icono-abajo-footer" 
-                  src="./img/icono-programacion.png"
-                  alt="Icono debajo del footer"
-                  width="43"
-                  height="43">
-              </div>  
-            </footer>
-          </main>    
-      </section>  
   </body>
 </html>
