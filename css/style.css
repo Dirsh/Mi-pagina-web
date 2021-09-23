@@ -199,7 +199,7 @@
   border-radius: 10%;
   margin: 10px;
   width:30%;
-  transform: translate(40%, 60%);
+  transform: translate(40%, 20%);
   text-align: center;
   padding: 18px;
   height: 267px;
@@ -267,4 +267,66 @@
   transform: translate(4200%, 550%);
   flex-wrap: wrap;
   
+}
+
+
+/*                                      Titulo-Biografia                                                         */ 
+
+
+.Titulo-historia-principal {
+  font-family: fantazy;
+  font-size: 130px;
+  transform: translate(58%, -980%);
+
+}
+
+.Imagen-historia {
+  height: 150px;
+  width: 150px;
+  transform: translate(50%, 140%);
+}
+
+.Imagen-Nico-Historia {
+  position: relative;
+  width: 110px;
+  height: 100;
+  transform: translate(-850%, 135%);
+  border-radius: 10%;
+  left: 1070px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  flex-wrap: wrap;
+
+}
+
+.box-yo {
+  color: #ffffff;
+  width: 650px;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
+  border: 5px solid #0e4e7575;
+  background-color: #0e4e7575;
+  transform: translate(100%, 0%);
+  font-family: Roboto,sans-serif;
+}
+
+.box-familia {
+  color: #ffffff;
+  width: 650px;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
+  border: 5px solid #0e4e7575;
+  background-color: #0e4e7575;
+  transform: translate(0%, 0%);
+  font-family: Roboto,sans-serif;  
+}
+
+.Imagen-familia {
+  height: 350px;
+  width: 250px;
+  transform: translate(200%, 180%);
+  border: 3px solid #000000;
+  border-radius: 30px;
 }
