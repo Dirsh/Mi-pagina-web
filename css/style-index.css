@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
@@ -14,21 +13,17 @@
   min-width: 100px;
 }  
 
-
 .main-nav {
   background-color: rgba(243, 219, 219, 0);
   color: rgba(255, 255, 255, 0);
-  height: 0px;
-  margin-top: 0px;
+  min-width: 900px;
+  width: 50%;
   font-size: 19px;
   list-style: none;
-  padding-left: 0%;
-  transform: translate(0%, 18%); /* 18% para que no este pegado a la parte de arriba */
   text-align: center;
   padding: 20px;
-  left: 0px;
   font-family: Roboto,sans-serif;
-  justify-content: center;
+  margin: auto;
   
 }
 
@@ -36,100 +31,136 @@
   color: #ffffff;
   text-decoration: none;
   justify-content: center;
-  
 }
 
 
 .main-nav__item_home {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.048);
-  padding-left: 0px;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px;
-  width: 110px;
-  flex-wrap: wrap;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  margin-left: 1em;
-  margin-right: .5em;
+  width: 735px;
   text-decoration: none;
-  transform: translate(40%, -75%);
   border-radius: 50px;
   border: 1px solid;
   color: #ffffff;
+  margin-left: 10%;
+  margin-top: 0%;
 }
 
 .main-nav__item_biografia {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.048);
-  padding-left: 0px;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px;
-  width: 155px;
-  flex-wrap: wrap;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  margin-left: 1em;
-  margin-right: .5em;
+  width: 600px;
   text-decoration: none;
-  border-radius: 40px;
-  transform: translate(20%, 40%);
   border-radius: 50px;
   border: 1px solid;
   color: #ffffff;
+  margin-left: 17%;
+  margin-top: 1%;
 }
 
 .main-nav__item_esperincia_profesional {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.048);
-  padding-left: 0px;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px;
-  border: 2px solid;
-  flex-wrap: wrap;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  margin-left: 1em;
-  margin-right: .5em;
+  width: 520px;
   text-decoration: none;
-  border-radius: 40px;
-  transform: translate(-2%, 170%);
   border-radius: 50px;
   border: 1px solid;
   color: #ffffff;
+  margin-left: 22%;
+  margin-top: 1%;
 }
 
 .main-nav__item_conocimiento {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.048);
-  padding-left: 0px;
-  width: 155px;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px;
-  border: 2px solid;
-  flex-wrap: wrap;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  margin-left: 1em;
-  margin-right: .5em;
+  width: 400px;
   text-decoration: none;
-  border-radius: 40px;
-  transform: translate(-25%, 40%);
   border-radius: 50px;
   border: 1px solid;
   color: #ffffff;
+  margin-left: 28%;
+  margin-top: 1%;
 }
 
+
 .main-nav__item_blog  {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.048);
-  padding-left: 0px;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px;
-  width: 110px;
-  flex-wrap: wrap;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  margin-left: 1em;
-  margin-right: .5em;
+  width: 290px;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 50px;
   border: 1px solid;
   color: #ffffff;
-  transform: translate(-40%, -70%);
+  margin-left: 34%;
+  margin-top: 1%;
+}
+
+.contenedor-principal {
+  height: 1000px;
+  background-color: #b3b3b33a;
+  width: 90%;
+  max-width: 1500px;
+  margin: 400px auto;
+  
+}
+
+
+.foto-conteiner-principal-para-fondo-abajo {
+  background-color: #ff000000;
+  height: 279px;
+  width: 100%;
+  max-width: 1900px;
+  margin: 0px auto;
+  transform: translate(0%, 10%);
+}
+
+.contenedor-redes-sociales {
+  background-color: #ff000000;
+  height: 375px;
+  max-width: 200px;
+  transform: translate(0%, -50%);
+}
+.Cuadrado-neon-redes-sociales {
+  position: absolute;
+  height: 370px;
+  width: 280px;
+  margin-left: 0px;
+  margin-top: 0px;
+  transform: translate(-10%, 30%);
+}
+
+.Icono-correo {
+  position: absolute;
+  height: 30px;
+  width: 38px;
+  margin-left: 00px;
+  margin-top: 0px;  
+  transform: translate(240%, 1140%);  
+}
+
+
+.Icono-instagram {
+  position: absolute;
+  height: 35px;
+  width: 38px;
+  margin-left: 0px;
+  margin-top: 0px;  
+  transform: translate(235%, 767%);  
+}
+
+.Icono-linkedin {
+  position: absolute;
+  height: 30px;
+  width: 33px;
+  margin-left: 0px;
+  transform: translate(275%, 659%);  
+}
+
+.Icono-github {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  margin-left: 0px;
+  margin-top: 0px;
+  transform: translate(190%, 270%);       
 }
