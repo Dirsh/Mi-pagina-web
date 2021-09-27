@@ -26,6 +26,10 @@
     margin: auto;
     
   }
+
+  .main-nav :hover {
+    color: #e2dddda6;
+  }
   
   .main-nav a {
     color: #ffffff;
