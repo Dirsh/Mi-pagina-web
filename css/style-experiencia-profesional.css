@@ -1,0 +1,175 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .html {
+    font-size: 62.5%;
+  }
+  
+  .body {
+    background-repeat: none;
+    min-height: 100px;
+    min-width: 100px;
+  }  
+  
+  .main-nav {
+    background-color: rgba(243, 219, 219, 0);
+    color: rgba(255, 255, 255, 0);
+    min-width: 900px;
+    width: 50%;
+    font-size: 19px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    font-family: Roboto,sans-serif;
+    margin: auto;
+    
+  }
+  
+  .main-nav :hover {
+    color: #e2dddda6;
+  }
+  
+  .main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  
+  .main-nav__item_home {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 735px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+  
+  .main-nav__item_biografia {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 600px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 17%;
+    margin-top: 1%;
+  }
+  
+  .main-nav__item_esperincia_profesional {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 520px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 22%;
+    margin-top: 1%;
+  }
+  
+  .main-nav__item_conocimiento {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 400px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 28%;
+    margin-top: 1%;
+  }
+  
+  
+  .main-nav__item_blog  {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 290px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 34%;
+    margin-top: 1%;
+  }
+  
+.contenedor-principal {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    margin-top: 0%;
+  }
+
+  
+
+.contenedor-redes-sociales {
+    background-color: #ff000000;
+    height: 375px;
+    max-width: 200px;
+    transform: translate(0%, -50%);
+  }
+  .Cuadrado-neon-redes-sociales {
+    position: absolute;
+    height: 370px;
+    width: 280px;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: translate(-10%, 30%);
+  }
+  
+  .Icono-correo {
+    position: absolute;
+    height: 30px;
+    width: 38px;
+    margin-left: 00px;
+    margin-top: 0px;  
+    transform: translate(240%, 1140%);  
+  }
+  
+  
+  .Icono-instagram {
+    position: absolute;
+    height: 35px;
+    width: 38px;
+    margin-left: 0px;
+    margin-top: 0px;  
+    transform: translate(235%, 767%);  
+  }
+  
+  .Icono-linkedin {
+    position: absolute;
+    height: 30px;
+    width: 33px;
+    margin-left: 0px;
+    transform: translate(275%, 659%);  
+  }
+  
+  .Icono-github {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: translate(190%, 270%);       
+  }
+
+
+.footer {
+    color: #ffffff;
+    background-color: #000000;
+    margin-top:7%;
+    list-style: none;
+    padding-left: 0%;
+    text-align: center;
+    padding: 48px;
+    background-color: #33333336;
+    font-family: Roboto,sans-serif;
+    justify-content: center; 
+    text-align: center;
+}

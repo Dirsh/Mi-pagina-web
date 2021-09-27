@@ -99,14 +99,6 @@
     margin-top: 1%;
   }
   
-  .contenedor-principal {
-    height: 1000px;
-    background-color: #b3b3b33a;
-    width: 90%;
-    max-width: 1500px;
-    margin: 400px auto;
-    
-  }
 
 .Titulo-historia-principal {
     background-color: rgba(243, 219, 219, 0);
@@ -167,7 +159,7 @@
     left: 0px;
     border: 5px solid #353f4600;
     background-color: #fefeff00;
-    font-family: Roboto,sans-serif;
+    font-family: monospace,sans-serif;
     justify-content: center; 
     text-align: center;
     transform: translate(0%, 0%);
@@ -184,7 +176,7 @@
     left: 0px;
     border: 5px solid #353f4600;
     background-color: #fefeff00;
-    font-family: Roboto,sans-serif;
+    font-family: monospace,sans-serif;
     justify-content: center; 
     text-align: center;
     transform: translate(0%, 0%);
@@ -233,7 +225,7 @@
     left: 0px;
     border: 5px solid #353f4600;
     background-color: #fefeff00;
-    font-family: Roboto,sans-serif;
+    font-family: monospace,sans-serif;
     justify-content: center; 
     text-align: center;
     transform: translate(0%, 0%);
@@ -328,7 +320,6 @@
     margin: auto;
     border: 5px solid #353f4600;
     background-color: #fefeff00;
-    font-family: Roboto,sans-serif;
     transform: translate(0%,1650%);
 }
 
