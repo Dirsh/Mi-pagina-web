@@ -98,165 +98,48 @@
     margin-left: 34%;
     margin-top: 1%;
   }
-  
-.contenedor-principal {
-    background-color: #6b6b6b00;
+
+  .contenedor-principal {
+    background-color: #ff060600;
     min-width: 200px;
-    min-height: 700px;
+    min-height: 1100px;
     width: 80%;
     height: 100%;
     margin: 12%;
     margin-top: 0%;
     margin-left: 12%;
   }
-
-  .titulo-conocimientos {
-    color: #ffffff;
-    font-size: 2.0vw;
-    text-align: center;
-    margin-top: 5%; 
-    font-family: monospace,sans-serif;
-    margin-left: -4%;
-    border-radius: 20px;
-    border:2px solid #ffffff;
-    width: 20%;
-    margin-left: 38%;
-}    
-
-.contenedor-html {
-    background-color: rgba(0, 255, 255, 0);
-    width: 45%;
-    margin-left: 26%;
-    margin-top: 10%;
-}
-.texto-html {
-    color: #ffffff;
-    font-size: 3.0vw;
-    margin-left: 10%;
-    margin-top: 15%;   
-    font-family: monospace,sans-serif;
-}
-
-.imagen-html {
+  
+.imagen-programador-escritorio {
     width: 27%;
-    margin-left: 70%;
-    margin-top: -17%;
+    margin-left: 35%;
+    margin-top: 5%; 
+    border-radius: 20%;
 }
 
-.contenedor-css {
+.contenedor-texto-texto-por-que-programo {
     background-color: rgba(0, 255, 255, 0);
     width: 45%;
     margin-left: 26%;
-    margin-top: 10%;
+    margin-top: 0%;
 }
 
-.texto-css {
+.texto-por-que-programo {
     color: #ffffff;
-    font-size: 3.0vw;
-    margin-left: 11%;
+    font-size: 1.2vw;
+    margin-left: -5%;
     margin-top: 0%;   
     font-family: monospace,sans-serif;
-}
-
-.imagen-css {
-    width: 45%;
-    margin-left: 61%;
-    margin-top: -17%;
-}
-
-.contenedor-javascript {
-    background-color: rgba(0, 255, 255, 0);
-    width: 45%;
-    margin-left: 26%;
-    margin-top: 10%;
-}
-
-.texto-javascript {
-    color: #ffffff;
-    font-size: 3.0vw;
-    margin-left: 0%;
-    margin-top: 0%;   
-    font-family: monospace,sans-serif;
-}
-
-.imagen-javascript {
-    width: 26%;
-    margin-left: 71%;
-    margin-top: -17%;
-}
-
-.contenedor-python {
-    background-color: rgba(0, 255, 255, 0);
-    width: 45%;
-    margin-left: 26%;
-    margin-top: 10%;
-}
-
-.texto-python {
-    color: #ffffff;
-    font-size: 3.0vw;
-    margin-left: 8%;
-    margin-top: 0%;   
-    font-family: monospace,sans-serif;
-}
-
-.imagen-python {
-    width: 20%;
-    margin-left: 74%;
-    margin-top: -17%;
-}  
-
-.titulo-certificados {
-    color: #ffffff;
-    font-size: 2.0vw;
-    text-align: center;
-    margin-top: 7%; 
-    font-family: monospace,sans-serif;
-    margin-left: -4%;
-    border-radius: 20px;
-    border:2px solid #ffffff;
-    width: 20%;
-    margin-left: 38%;
-}   
-
-.imagen-certificado-python-basico {
-    width: 30%;
-    margin-left: 10%;
-    margin-top: 8%;
-}
-
-.imagen-certificado-python {
-    width: 30%;
-    margin-left: 20%;
-    margin-top: 8%;   
-}
-
-.imagen-certificado-poo {
-    width: 30%;
-    margin-left: 10%;
-    margin-top: 8%;  
-}
-
-.imagen-certificado-javascript {
-    width: 30%;
-    margin-left: 20%;
-    margin-top: 8%;  
-}
-
-.imagen-certificado-GIT-Y-GITHUB {
-    width: 30%;
-    margin-left: 10%;
-    margin-top: 8%; 
-}
-
-.imagen-bola-azul {
-    width: 20%;
-    margin-left: 38%;
-    margin-top: 9%; 
-    border-radius: 300%;
 }
 
 .contenedor-redes-sociales {
+    background-color: #ff000000;
+    height: 0px;
+    max-width: 200px;
+    margin-top: 0%;
+  }
+
+  .contenedor-redes-sociales {
     background-color: #ff000000;
     height: 0px;
     max-width: 200px;
@@ -322,4 +205,4 @@
     background-color: #030303;
     font-family: Roboto,sans-serif;
     justify-content: center; 
-}
+}  
