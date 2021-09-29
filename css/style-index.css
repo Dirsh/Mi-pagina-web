@@ -145,11 +145,11 @@
   padding: 30px;
   border-radius: 30px;
   font-family: monospace,sans-serif;
-  font-size: 1.1vw;;
+  font-size: 1.16vw;;
   font-weight: 700;
   width: 40%;
   height: 40%;
-  margin-left: 29%;
+  margin-left: 29.6%;
   margin-top: 12%;
 
 }
@@ -194,7 +194,7 @@
   height: 279px;
   width: 100%;
   max-width: 1900px;
-  margin-top: -8%;
+  margin-top: -1%;
   transform: translate(0%, 2%);
 }
 
@@ -259,10 +259,10 @@
 .footer {
   color: #ffffff;
   background-color: #000000;
-  margin-top: -5%;
+  margin-top: -0%;
   list-style: none;
   padding-left: 0%;
-  padding: 4%;
+  padding: 3%;
   text-align: center;
   font-size: 0.9vw;
   border: 0px solid #353f4600;
