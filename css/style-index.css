@@ -120,12 +120,12 @@
   color: #ffffff;
   border-radius: 30px;
   font-family: monospace,sans-serif;
-  font-size: 0.99vw;
+  font-size: 1.4vw;
   font-weight: 700;
   width: 40%;
   height: 40%;
-  margin-left: 40%;
-  margin-top: -19%;
+  margin-left: 37%;
+  margin-top: -20%;
 
 }
 
@@ -145,12 +145,12 @@
   padding: 30px;
   border-radius: 30px;
   font-family: monospace,sans-serif;
-  font-size: 0.96vw;;
+  font-size: 1.1vw;;
   font-weight: 700;
   width: 40%;
   height: 40%;
-  margin-left: 30%;
-  margin-top: 13%;
+  margin-left: 29%;
+  margin-top: 12%;
 
 }
 
@@ -259,11 +259,12 @@
 .footer {
   color: #ffffff;
   background-color: #000000;
-  margin-top: 0%;
+  margin-top: -5%;
   list-style: none;
   padding-left: 0%;
+  padding: 4%;
   text-align: center;
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   border: 0px solid #353f4600;
   background-color: #030303;
   font-family: Roboto,sans-serif;
