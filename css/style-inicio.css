@@ -1,0 +1,265 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .html {
+    font-size: 62.5%;
+
+  }
+  
+  .body {
+    background-repeat: none;
+    min-height: 100px;
+    min-width: 100px;
+  }  
+  
+  .main-nav {
+    background-color: rgba(243, 219, 219, 0);
+    color: rgba(255, 255, 255, 0);
+    min-width: 900px;
+    width: 0%;
+    font-size: 19px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    font-family: Roboto,sans-serif;
+    margin: auto;
+    
+  }
+  
+  .main-nav :hover {
+    color: #e2dddda6;
+  }
+  
+  .main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  
+  .main-nav__item_home {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 735px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+  
+  .main-nav__item_biografia {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 600px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 17%;
+    margin-top: 1%;
+  }
+  
+  .main-nav__item_esperincia_profesional {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 520px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 22%;
+    margin-top: 1%;
+  }
+  
+  .main-nav__item_conocimiento {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 400px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 28%;
+    margin-top: 1%;
+  }
+  
+  
+  .main-nav__item_blog  {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    width: 290px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-left: 34%;
+    margin-top: 1%;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+  #container {
+    color:#999;
+    text-transform: uppercase;
+    font-size:600%;
+    font-weight:bold;
+    padding-top:200px;  
+    position:relative;
+    width:100%;
+    bottom:50%;
+    display:block;
+    margin-left: 0%;
+    margin-top: 0%;
+    text-align: center;
+  }
+  
+  #flip {
+    height:100px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:100px;
+    margin-bottom:0px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#42c58a;
+  }
+  #flip div:first-child div {
+    background:#4ec7f3;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-217px;}
+    33% {margin-top:-217px;}
+    38% {margin-top:-110px;}
+    66% {margin-top:-110px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  
+  p {
+    position:fixed;
+    width:100%;
+    bottom:30px;
+    font-size:12px;
+    color:#999;
+    margin-top:200px;
+  }  
+  
+.Programador-pixel{
+  width: 12%;
+  margin-left: 42%;
+  margin-top: 5%;
+  border: 3px solid #ffffff00;
+  border-radius: 30px;
+  position: sticky;
+}
+
+.programador-neon {
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+  
+  .Redondo-multicolor {
+    width: 8%;
+    margin-left: -40%;
+    margin-top: 0%;
+    border-radius: 100%;
+    position: relative;
+  
+  }
+ 
+  
+  .foto-conteiner-principal-para-fondo-abajo {
+    background-color: #ff000000;
+    height: 270px;
+    width: 100%;
+  }
+  
+  .contenedor-redes-sociales {
+    background-color: #ff080800;
+    height: 400px;
+    width: 300px;
+  }
+  .Cuadrado-neon-redes-sociales {
+    position: absolute;
+    height: 400px;
+    width: 280px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  .Icono-correo {
+    position: absolute;
+    height: 30px;
+    width: 38px;
+    margin-left: 120px;
+    margin-top: 260px;    
+  }
+  
+  
+  .Icono-instagram {
+    position: absolute;
+    height: 35px;
+    width: 38px;
+    margin-left: 120px;
+    margin-top: 180px;   
+  }
+  
+  .Icono-linkedin {
+    position: absolute;
+    height: 30px;
+    width: 33px;
+    margin-left: 122px;
+    margin-top: 100px;     
+  }
+  
+  
+  .Icono-github {
+    position:absolute;
+    height: 45px;
+    width: 45px;
+    margin-left: 115px;
+    margin-top: 20px;    
+  }
+  
+  .footer {
+    color: #ffffff;
+    background-color: #000000;
+    width: 94%;
+    height: 100%;
+    list-style: none;
+    padding: 3%;
+    text-align: center;
+    font-size: 0.9vw;
+    background-color: #030303;
+    font-family: Roboto,sans-serif;
+    justify-content: center; 
+    text-align: center;
+    position: relative;
+    margin-top: 2%;
+  }
+
+  
+  
