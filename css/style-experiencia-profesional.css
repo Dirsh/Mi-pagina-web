@@ -104,39 +104,40 @@
     min-width: 700px;
     min-height: 922px;
     margin: 12%;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 12%;
     border-radius: 10%;
     border: 2px solid rgba(255, 255, 255, 0);
   }
 
 .logo-smarter-solutions {
-    background-color: #ffffff85;
-    width: 25%;
+    background-color: #ffffff8a;
+    width: 30%;
     margin-left: 0%;
     margin-top: 5%;
-    border-radius: 20%;
+    border-radius: 1%;
 }
 
 .logo-arrichetta {
-    background-color: #ffffff85;
-    width: 25%;
+    background-color: #ffffff8a;
+    width: 30%;
     margin-left: 0%;
     margin-top: 5%;
-    border-radius: 20%;
+    border-radius: 1%;
 }
 
 .logo-3ntropy {
+    background-color: #ffffff8a;
     width: 25%;
     margin-left: 0%;
     margin-top: 5%;
-    border-radius: 20%;
+    border-radius: 1%;
 }
 
-.texto-smarter-solutions {
+.texto-general {
     color: rgb(255, 255, 255);
     height: 250px;
-    font-size: 1.1vw;
+    font-size: 2.1vw;
     margin-top: 0px;
     list-style: none;
     left: 0px;
@@ -151,9 +152,9 @@
 
 .contenedor-redes-sociales {
     background-color: #ff000000;
-    height: 0px;
+    height: 400px;
     max-width: 200px;
-    margin-top: 0%;
+    margin-top: 90%;
   }
   .Cuadrado-neon-redes-sociales {
     position: absolute;
@@ -161,16 +162,14 @@
     width: 280px;
     margin-left: 0px;
     margin-top: 10px;
-    transform: translate(-10%, 30%);
   }
   
   .Icono-correo {
     position: absolute;
     height: 30px;
     width: 38px;
-    margin-left: 00px;
-    margin-top: 0px;  
-    transform: translate(240%, 1140%);  
+    margin-left: 120px;
+    margin-top: 240px;  
   }
   
   
@@ -178,26 +177,24 @@
     position: absolute;
     height: 35px;
     width: 38px;
-    margin-left: 0px;
-    margin-top: 0px;  
-    transform: translate(235%, 767%);  
+    margin-left: 120px;
+    margin-top: 165px;  
   }
   
   .Icono-linkedin {
     position: absolute;
     height: 30px;
     width: 33px;
-    margin-left: 0px;
-    transform: translate(275%, 659%);  
+    margin-left: 122px;
+    margin-top: 97px;  
   }
   
   .Icono-github {
     position: absolute;
     height: 45px;
     width: 45px;
-    margin-left: 0px;
-    margin-top: 0px;
-    transform: translate(190%, 270%);       
+    margin-left: 115px;
+    margin-top: 21px;  
   }
 
 
@@ -205,7 +202,7 @@
     color: #ffffff;
     background-color: #000000;
     height: 100%;
-    margin-top: 50%;
+    margin-top: 10%;
     list-style: none;
     padding-left: 0%;
     padding: 3%;
