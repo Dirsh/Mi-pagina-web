@@ -146,14 +146,14 @@
   }
   
   @keyframes show {
-    0% {margin-top:-270px;}
-    5% {margin-top:-217px;}
-    33% {margin-top:-217px;}
+    0% {margin-top:-275px;}
+    5% {margin-top:-223px;}
+    33% {margin-top:-223px;}
     38% {margin-top:-110px;}
     66% {margin-top:-110px;}
     71% {margin-top:0px;}
     99.99% {margin-top:0px;}
-    100% {margin-top:-270px;}
+    100% {margin-top:-275px;}
   }
   
   p {
